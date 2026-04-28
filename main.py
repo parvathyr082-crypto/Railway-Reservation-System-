@@ -1,3 +1,4 @@
+
 seats = 50
 bookings = {}
 
@@ -24,7 +25,7 @@ def book_ticket():
 
     seats -= 1
     print("Ticket booked! Your Booking ID:", booking_id)
-
+    print("Welcome to Railway Reservation System")
 def view_ticket():
     bid = int(input("Enter Booking ID: "))
     if bid in bookings:

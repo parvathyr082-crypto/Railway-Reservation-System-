@@ -1,4 +1,4 @@
-
+print("Welcome to Railway Reservation System")
 seats = 50
 bookings = {}
 
@@ -25,7 +25,8 @@ def book_ticket():
 
     seats -= 1
     print("Ticket booked! Your Booking ID:", booking_id)
-    print("Welcome to Railway Reservation System")
+    
+    print("Thank you for using the system!")
 def view_ticket():
     bid = int(input("Enter Booking ID: "))
     if bid in bookings:
@@ -65,3 +66,4 @@ while True:
         break
     else:
         print("Invalid choice!")
+       print("Thank you for using the system!") 
